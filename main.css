@@ -1,21 +1,27 @@
 * {
-    margin: 0 0 0 0;
+/*    margin: 0 0 0 0;
     border: 0 0 0 0;
     padding: 0 0 0 0;
-    color: #FFFFFF;
+*/    color: #FFFFFF;
 }
 
 body {
+    margin-top: 0;
     background-color: #000000;
-    padding: 0 1% 0 1%;
 }
 
 .header {
+    margin: 0 0 0 0;
     background-color: #888888;
 }
 
 .header * {
     color: #000000;
+}
+
+.header ul {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
 .header ul li {
@@ -30,6 +36,11 @@ body {
     color: #000000;
 }
 */
+
+.footer ul {
+    padding: 0 0 0 0;
+}
+
 .footer ul li {
     display: inline-block;
 }
